@@ -122,7 +122,7 @@ class CommentService {
           where: { commentKey },
           include: [{ model: User, attributes: ['nickname', 'point'] }],
         });
-
+        //ddddd
         return {
           ok: true,
           msg: '댓글 수정 성공',
